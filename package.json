@@ -6,7 +6,8 @@
   "author": "mariaj",
   "type": "module",
   "scripts": {
-    "dev": "node --watch --env-file=.env src/server.js"
+    "dev": "node --watch --env-file=.env src/server.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
