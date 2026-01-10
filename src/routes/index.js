@@ -1,14 +1,14 @@
 import { Router } from "express";
-import userRouter from "./user.route.js";
+import clienteRouter from "./cliente.route.js";
 
 const router = Router();
 
 //definir rutas
 
 router.get("/", (req, res) => {
-  res.send("Bienvenido a Usuarios");
+  res.send("Bienvenido a Clientes");
 });
 
-router.use("/api/v1", userRouter);
+router.use("/api/v1", clienteRouter);
 
 export default router;
